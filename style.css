@@ -1,0 +1,64 @@
+*{
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: #ff0000;
+
+  /* 1 2 3 4 5 6 7 8 9 a b c d e f */
+}
+h2 {
+  color: purple;
+}
+.bdate {
+  color: brown;
+  display: inline;
+}
+.title {
+  color: chocolate;
+}
+.basic-info {
+  color: rgb(96, 54, 24);
+}
+.education {
+  color: #452b2b;
+  line-height: 24px;
+}
+/* .edu1{
+    color: blueviolet;
+} */
+p {
+  line-height: 24px !important;
+}
+p.info {
+  font-size: 48px;
+  color: rgb(0, 104, 3);
+}
+.family-info {
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+}
+#mother-name-style {
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#title-id {
+  color: blue;
+}
+.award {
+  border: rgb(207, 66, 89) 2px solid;
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  line-height: 24px;
+  background-color: #ff000019;
+  width: 300px;
+}
+a[href^="#"]{
+  color: #ff0000;
+}
+a[href^="https"]{
+  color: green;
+}
